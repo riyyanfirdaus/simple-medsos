@@ -1,0 +1,144 @@
+@media (min-width: 300px) and (max-width: 660px) {
+    .flex-s {
+        display: flex;
+        flex-direction: column;
+      }
+    .box-send {
+        order: -1;
+    }
+
+    .paragraph-font {
+        font-size: 13px;
+    }
+
+    .font-like {
+        font-size: 11px;
+        margin-top: 14px !important;
+    }
+
+    .comment-text {
+        font-size: 11px;
+    }
+
+    .comment-text-time {
+        font-size: 9px;
+    }
+
+    .card-title {
+        font-size: 16px !important;
+    }
+
+    .time {
+        font-size: 11px;
+    }
+
+    .profile-post {
+        width: 36px;
+        height: 36px;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1380px ) {
+    .profile-post {
+        width: 43px;
+        height: 43px;
+        object-fit: cover;
+    }
+
+    .font-like {
+        font-size: 12px;
+        margin-top: 14px !important;
+    }
+
+    .comment-text {
+        font-size: 13px;
+    }
+    
+    .comment-text-time {
+        font-size: 12px;
+    } 
+    
+    .time {
+        font-size: 13px;
+    }
+}
+
+
+#profile-page-wall-posts .card-profile-title {
+    font-size: 16px;
+    padding: 20px;
+    border-radius: 0 0 2px 2px;
+}
+
+
+#profile-page-wall-posts .profile-medium {
+    height: 350px;
+    overflow: hidden;
+}
+
+#content .container .row {
+    margin-bottom: 0;
+}
+
+.read-more {
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.modal-comment {
+    overflow: hidden;
+    min-height: 80vh;
+}
+
+.card-action button {
+    border: none;
+    background-color: unset;
+    top: -3px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.card-action form {
+    display: inline-block;
+}
+
+.card-profile-title .row {
+    padding: 10px 15px 0px 15px;
+    margin-bottom: 5px;
+}
+
+.col .profile-title {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.card-content {
+    padding: 12px 15px 12px 15px !important;
+}
+
+
+#dropdownMenu li {
+    font-size: 12px;
+    padding-top: 12px;
+    padding-left: 8px;
+}
+
+.imageBtn {
+    cursor: pointer;
+}
+
+.close {
+    position: absolute;
+    top: 6px;
+    right: 11px;
+    cursor: pointer;
+}
+
+.post-close {
+    position: absolute;
+    z-index: 1;
+    top: -10px;
+    right: -5px;
+    cursor: pointer;
+}

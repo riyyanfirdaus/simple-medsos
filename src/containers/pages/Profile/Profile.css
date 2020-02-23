@@ -1,0 +1,58 @@
+#profile-page-header .card-content {
+    margin-top: -40px;
+}
+
+@media (min-width: 300px) and (max-width: 660px) {
+    #profile-page-header .card-profile-image {
+        width: 110px;
+        position: absolute;
+        top: 145px;
+        z-index: 1;
+        left: 20px;
+        margin: 0;
+    }
+    
+    #profile-page-header .card-image {
+        height: 226px;
+    }
+
+    .card .card-content .card-title {
+        margin-bottom: 3px !important;
+        margin-top: 0;
+        line-height: 55px;
+    }
+
+    .card-profile-image img {
+        width: 102px;
+        height: 102px;
+        object-fit: cover;
+    }
+}
+
+
+@media (min-width: 900px) and (max-width: 1380px ) {
+    #profile-page-header .card-profile-image {
+        width: 110px;
+        position: absolute;
+        top: 190px;
+        z-index: 1;
+        left: 20px;
+        margin: 0;
+    }
+    
+    #profile-page-header .card-image {
+        height: 250px;
+    }
+
+    .card .card-content .card-title {
+        margin-bottom: 3px !important;
+        margin-top: 28px;
+        line-height: 40px;
+    }
+
+    .card-profile-image img {
+        width: 110px;
+        height: 110px;
+        object-fit: cover;
+    }
+}

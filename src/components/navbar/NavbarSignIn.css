@@ -1,0 +1,17 @@
+#notif {
+    width: 350px !important;
+    top: 64px !important;
+}
+
+#notif li {
+    padding: 5px 20px;
+}
+
+#notif li p {
+    margin: 0 !important;
+    font-size: 13.5px;
+}
+
+.hidden {
+    display: none !important;
+}
